@@ -1,0 +1,597 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+html { 
+    font-size: 62.5%;
+ }
+
+header {
+    width: 100%;
+    background-color: #f7f9fc;
+    height: 90px;
+}
+
+.ancho {
+    width: 80%;
+    height: 90px;
+    margin: auto;
+}
+
+ .imagenLogo {
+    display: flex;
+    width: 30%;
+    height: 90px;
+    float: left;
+    align-items: center;
+ }
+
+ .imagenLogo p img {
+    width: 100px;
+ }
+
+nav {
+     width: 70%;
+     height: 90px;
+     float: left;
+     text-align: right;
+     padding-top: 30px;
+ }
+
+ .navmenu ul li{
+     display: inline-flex;
+     font-size: 18px;
+     font-family: poppins;
+     padding-right: 20px;
+     text-align: right;
+ }
+
+ .namenudiv2 {
+     align-items: center;
+ }
+
+.titulos {
+    color:white;
+    text-align: center;
+    font-family: Poppins 400;
+}
+
+h1 {
+    font-size: 5rem;
+    padding-top: 220px;
+    font-family: "Poppins";
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+}
+
+.titulosH2 {
+    font-size: 4.2rem;
+    font-family: "Poppins";
+    font-weight: 700;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    color: #047798;
+    letter-spacing: 0.05em;
+}
+
+.tituloH2Portada {
+    font-size: 4.2rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.titulosH4 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-family: "Poppins";
+    font-weight: 200;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.05em;
+}
+
+.copy {
+    text-align: center;
+    color: #00000060;
+    background-color: #f7f9fc;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #047798;
+}
+
+#imagen-fondo {
+    background-image: url("../img/Fondo\ de\ pantalla\ web\ JDLC\ opt.jpg"); height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sobremi {
+    background-color: #f7f9fc;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.tituloSobreMi {
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+.titulosH2SobreMi {
+    font-size: 4.2rem;
+    font-family: "Poppins";
+    font-weight: 700;
+    padding: 0 0 1em 0;
+    text-align: center;
+    color: #047798;
+    letter-spacing: 0.05em;
+}
+
+.sobremicaja {
+    font-size: 1.8rem;
+    font-family: "Poppins";
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    color: #777777;
+    line-height: 1.4em;
+    display: flex;
+    margin: 0px 30px 20px 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+.imagenJuan {
+    border-radius: 20px;
+}
+.imagenSobreMi {
+    border-radius: 20px;
+    margin: 20px 10px 20px 40px;
+    padding: 20px;
+}
+
+.textoSobremi {
+    padding: 30px;
+}
+
+.textoSobremipadding p{
+    padding: 0px 10px 20px 0px;
+}
+
+.separa {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.tabla {
+    border: 4;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    background-color: #f7f9fc;
+    padding-inline-end: 30px 0;
+}
+
+.formulario{
+    display: block;
+    width: 40%;
+    font-size: 1.8rem;  
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.formBorde {
+    background-color: #047798;
+    width: 400px;
+    padding: 20px 20px 40px 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.botonForm {
+  width: 100%;
+  background: white;
+  border: none;
+  padding: 12px;
+  color: #047798;
+  margin: 16px 0;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.controls {
+  width: 94%;
+  background: white;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-family: poppins;
+  font-size: 18px;
+  color: white;
+  height: 10px;
+}
+
+.controlsArea {
+    width: 94%;
+    background: white;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: poppins;
+    font-size: 18px;
+    color:#047798;
+    height: 40px;
+}
+
+.formulario2 {
+    width: 100%; 
+}
+
+.textoForm1 {
+    text-align: center;
+    width:  100%;
+    display: block;
+}
+
+.tituloForm {
+    width: 100%;
+    font-size: 2.5rem;
+    color: #047798;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titulosForm2 {
+    text-align: center;
+    width: 100%;
+}
+
+.textoForm {
+    width: 80%;
+    font-size: 2rem;
+    color: #777777;
+    text-align: center;
+    padding: 15px 50px;
+}
+
+.imagenForm {
+    width: 60%;
+    text-align: left;
+    border-radius: 30px;
+   margin-bottom: 30px;
+}
+
+.footer {
+    background-color: white;
+    font-size: 1.8rem;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.columnas {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+}
+.columna1Footer__mision {
+    font-size: 1.5rem;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 20px;
+}
+
+.columna1Footer {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.columna1Footer__logo {
+    margin-bottom: -10px;
+}
+
+.columna2Footer1 {
+    display: inline-block;
+   justify-content: center;
+}
+
+.columna2Footer {
+    padding: 10px 30px 20px 30px;
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+}
+
+.columna3Footer {
+    text-align: center; 
+    margin-right: 40px; 
+}
+
+.rrss_titulo {
+    color: #047798;
+    text-align: center;
+}
+
+#ventajas {
+    font-size: 1.8rem;
+    font-family: "Poppins";
+    letter-spacing: 0.05em;
+    color: #047798;
+    line-height: 1.4em;
+    text-align: center;
+    background-color: #f7f9fc;
+    border-radius: 20px;
+}
+
+#ventajas img {
+    width: 100px;
+}
+
+.ventajastexto {
+    font-size: 1.7rem;
+    color: #666666;
+    margin: 30px 20px 30px 20px;
+    letter-spacing: 0.05em;
+    font-family: Poppins;
+    line-height: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.imagenVentajas {
+    margin: 30px 15px 0px 15px;
+    border-radius: 20px;
+    
+}
+
+.ventajas1 {
+    background-color: white;
+    margin: 40px 15px 40px 15px;
+    border-radius: 20px;
+}
+
+.ventajas2 {
+    background-color: white;
+    margin: 40px 15px 40px 15px;
+    border-radius: 20px;
+}
+
+.ventajas3 {
+    background-color: white;
+    margin: 40px 15px 40px 15px;
+    border-radius: 20px;
+}
+
+.padding {
+    background-color:#f7f9fc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.mail {
+    padding: 20px 0px 0px 0px;
+}
+
+.telefono {
+    padding: 0px 0px 20px 0px;
+}
+
+.border {
+    border: solid 2px #047798;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-top: 15px;
+}
+#servicios {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f7f9fc;
+
+}
+
+.imagenServicios {
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+.serviciosTexto {
+    width: 300px;
+    font-size: 1.7em;
+    color: #666666;
+    margin: 30px 20px 30px 20px;
+    letter-spacing: 0.05em;
+    font-family: Poppins;
+    line-height: 1.5em;
+}
+.serviciosTitulo {
+    font-size: 16px;
+    max-width: 300px;
+    margin: 30px 20px 30px 20px;
+    color: #047798;
+    letter-spacing: 0.05em;
+    font-family: poppins;
+    line-height: 1.5em;
+    text-align: center;
+
+}
+.fondoBlanco {
+    background-color: white;
+    margin-top: 40px;
+}
+.servicios1 {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+}
+
+.PreciosConsultaIndividual {
+    border: #777777 2px solid;
+    height: 600px;
+}
+
+.precio {
+    font-size: 50px;
+    max-width: 300px;
+    margin: 20px 20px 20px 20px;
+    color: #ce0054;
+    font-family: poppins;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.precioAnterior {
+    font-size: 20px;
+    max-width: 300px;
+    color: #ce0054;
+    letter-spacing: 0.05em;
+    font-family: poppins;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.preciosTexto {
+    width: 200px;
+    font-size: 1.7em;
+    color: #666666;
+    margin: 30px 20px 30px 40px;
+    letter-spacing: 0.05em;
+    font-family: Poppins;
+    line-height: 1.5em;
+}
+
+.botonPrecios {
+  text-align: center;
+  background: #047798;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.botonPrecios1 {
+    text-align: center;
+}
+.resaltar {
+    background-color: #7ddde3;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .titulosH4 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    .padding {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-areas: 
+                "ventajas1"
+                "ventajas2"
+                "ventajas3"; 
+      }
+      .ventajas1 {
+          grid-area: ventajas1;
+      }
+      .ventajas2 {
+          grid-area: ventajas2;
+      }
+      .ventajas3 {
+          grid-area: ventajas3;
+      }
+      .columnas {
+            grid-template-columns: 100%;
+            display: grid;
+            grid-template-areas:
+                "columna1Footer"
+                "columna2Footer1"
+                "columna2Footer"
+                "columna3Footer";
+      }
+
+      .columna1Footer{
+          grid-area: columna1Footer;
+          margin: 0;
+      }
+
+      .columna2Footer {
+            grid-area: columna2Footer;
+            text-align: center;
+            padding: none;
+      }
+
+      .columna2Footer1 {
+          grid-area: columna2Footer1;
+          text-align: center;
+          padding: none;
+      }
+
+      .columna3Footer {
+          grid-area: columna3Footer;
+          text-align: center;
+          margin-right: 0;
+      }
+      
+      .sobremi {
+          display: grid;
+          padding: 0;
+          margin: 0;
+          grid-template-columns: 100%;
+          text-align: center;
+          grid-template-areas: 
+          "textoSobremipadding"
+          "imagenSobreMi";
+
+      }
+      .textoSobremipadding {
+          grid-area: textosobremipadding;
+      }
+      .imagenSobreMi {
+          grid-area: imagenSobreMi;
+          grid-template-columns: 100%;
+          padding: 0;
+          margin: 0;
+      }
+      .imagenJuan {
+          margin: 0;
+          width: 250px;
+          padding: 0;
+      }
+}
