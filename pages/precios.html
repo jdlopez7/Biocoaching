@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../img/Isotipo-web-JDL.png" type="image/x-icon">
     <title>BioCoaching | Juan David Lopez</title>
@@ -26,7 +27,7 @@
             
         </div>
     </header>
-    <h2 class="titulosH2">Precios</h2>
+    <h2 class="titulosH2" data-aos="zoom-in" data-aos-duration="1000">Precios</h2>
 
     <section id="servicios">
         <div class="servicios1">
@@ -66,7 +67,9 @@
                         <li>Horarios y días a coordinar</li>
                     </ul>
                 </div>
-                <div class="botonPrecios1">
+                <div class="botonPrecios1" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <input type="submit" value="comprar" class="botonPrecios">
                 </div>
             </div>
@@ -145,5 +148,9 @@
              </div>
  
      </footer>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
 </body>
 </html>
