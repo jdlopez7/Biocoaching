@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../img/Isotipo-web-JDL.png" type="image/x-icon">
     <title>BioCoaching | Juan David Lopez</title>
@@ -27,7 +28,7 @@
         </div>
     </header>
 
-    <h2 class="titulosH2">Contacto</h2>
+    <h2 class="titulosH2"   >Contacto</h2>
     
     <form>
         <section class="formulario">
@@ -71,11 +72,13 @@
         <section class="formulario2">
             <div class="textoForm1">
                 <div class="titulosForm2">
-                    <h3 class="tituloForm">Déjanos tus datos</h3>
+                    <h3 class="tituloForm" data-aos="zoom-in" data-aos-duration="1000">Déjanos tus datos</h3>
                     <p class="textoForm">Recibirás recursos de valor para entrenar las conversaciones que te llevarán a los resultados que esperas. Cada paso de tu camino es el fruto de tu propia creación y aprendizaje. Celebrarlos es una clave importante en el entenamiento de nuestro cerebro. ¡A celebrar!</p>
                 </div>
             
-                <div>
+                <div data-aos="fade-left"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                     <img class="imagenForm" src="../img/Coaching-Córdoba.jpeg" alt="">
                 </div>
             
@@ -142,5 +145,9 @@
              </div>
  
      </footer>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
 </body>
 </html>
