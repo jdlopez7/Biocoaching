@@ -12,55 +12,15 @@ header {
     background-color: #f7f9fc;
     height: 90px;
 }
-
-.ancho {
-    width: 80%;
-    height: 90px;
-    margin: auto;
-}
-
- .imagenLogo {
-    display: flex;
-    width: 30%;
-    height: 90px;
-    float: left;
-    align-items: center;
- }
-
- .imagenLogo p img {
-    width: 100px;
- }
-
-nav {
-     width: 70%;
-     height: 90px;
-     float: left;
-     text-align: right;
-     padding-top: 30px;
- }
-
- .navmenu ul li{
-     display: inline-flex;
-     font-size: 18px;
-     font-family: poppins;
-     padding-right: 20px;
-     text-align: right;
- }
-
- .namenudiv2 {
-     align-items: center;
- }
-
+/* Inicio Index */
 .titulos {
     color:white;
     text-align: center;
-    font-family: Poppins 400;
+    font-family: Poppins;
 }
 
 h1 {
-    font-size: 5rem;
-    padding-top: 220px;
-    font-family: "Poppins";
+    padding-top: 10rem;
     font-weight: 700;
     letter-spacing: 0.05em;
     line-height: 1.2em;
@@ -77,55 +37,112 @@ h1 {
 }
 
 .tituloH2Portada {
-    font-size: 4.2rem;
-    font-family: "Poppins";
+    font-size: 3.2rem;
     font-weight: 500;
     text-align: center;
     color: white;
     margin-top: 10px;
+    text-align: center;
 }
 
 .titulosH4 {
-    font-size: 1.8rem;
+    font-size: 0.8rem;
     line-height: 1.6;
     font-family: "Poppins";
     font-weight: 200;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1rem;
     letter-spacing: 0.05em;
 }
-
-.copy {
-    text-align: center;
-    color: #00000060;
-    background-color: #f7f9fc;
-    margin-bottom: 10px;
+.textos {
+    padding-top: 15rem;
 }
 
 a {
-    text-decoration: none;
-    color: #047798;
+    text-decoration: none !important;
+    color: #047798 !important;
 }
 
 #imagen-fondo {
-    background-image: url("../img/Fondo\ de\ pantalla\ web\ JDLC\ opt.jpg"); height: 600px;
+    background-image: url("../img/fondo-de-pantalla-web-jdlc-opt.jpg"); height: 600px;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+#ventajas {
+    font-size: 1.8rem;
+    font-family: "Poppins";
+    letter-spacing: 0.05em;
+    color: #047798;
+    line-height: 1.4em;
+    text-align: center;
+    background-color: #f7f9fc;
+    border-radius: 20px;
+}
+
+#ventajas img {
+    width: 100px;
+}
+
+.ventajastexto {
+    font-size: 1.7rem;
+    color: #666666;
+    margin: 30px 20px 30px 20px;
+    letter-spacing: 0.05em;
+    font-family: Poppins;
+    line-height: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.imagenVentajas {
+    margin: 30px 15px 0px 15px;
+    border-radius: 20px;
     
 }
+
+.ventajas1 {
+    background-color: white;
+    margin: 40px 15px 40px 15px;
+    border-radius: 20px;
+}
+
+.ventajas2 {
+    background-color: white;
+    margin: 40px 15px 40px 15px;
+    border-radius: 20px;
+}
+
+.ventajas3 {
+    background-color: white;
+    margin: 40px 15px 40px 15px;
+    border-radius: 20px;
+}
+
+.padding {
+    background-color:#f7f9fc;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+/* Fin index */
+
+/* Inicio Página Sobre Mi */
 .sobremi {
     background-color: #f7f9fc;
     padding: 40px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-top: 3rem;
 }
 
 .tituloSobreMi {
     display: grid;
     align-items: center;
     width: 100%;
+    margin-top: 5rem;
 }
 
 .titulosH2SobreMi {
@@ -141,17 +158,21 @@ a {
 .sobremicaja {
     font-size: 1.8rem;
     font-family: "Poppins";
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 0.05em;
     color: #777777;
     line-height: 1.4em;
     display: flex;
-    margin: 0px 30px 20px 30px;
+    margin: 2rem;
     background-color: white;
     border-radius: 20px;
+    
 }
 .imagenJuan {
     border-radius: 20px;
+}
+.imagenMargen {
+    margin: 2rem 0;
 }
 .imagenSobreMi {
     border-radius: 20px;
@@ -161,13 +182,17 @@ a {
 
 .textoSobremi {
     padding: 30px;
+    margin-top: 1rem;
 }
 
 .textoSobremipadding p{
     padding: 0px 10px 20px 0px;
 }
 
-.separa {
+/* Fin página Sobre Mi */
+/* Inicio página Contacto */
+
+/* .separa {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
@@ -175,9 +200,9 @@ a {
 .tabla {
     border: 4;
     font-size: 2rem;
-}
+} */
 
-form {
+/* form {
     display: flex;
     background-color: #f7f9fc;
     padding-inline-end: 30px 0;
@@ -277,7 +302,34 @@ form {
     text-align: left;
     border-radius: 30px;
     margin-bottom: 30px;
+} */
+
+.btn {
+background-color: #047798 !important;
+font: color white;
 }
+.form-label {
+    font-size: 2rem;
+    font-family: Poppins 200;
+}
+#contenedor-formulario{
+    background: #fbfafa;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conversemos {
+    color: #047798;
+    margin: 3rem 0;
+}
+.img-fluid {
+    border-radius: 15px;
+}
+
+/* Fin página contacto */
+
+/* Inicio Footer */
 
 .footer {
     background-color: white;
@@ -301,6 +353,14 @@ form {
 .columna1Footer {
     text-align: center;
     margin-left: 40px;
+}
+
+.mail {
+    padding: 20px 0px 0px 0px;
+}
+
+.telefono {
+    padding: 0px 0px 20px 0px;
 }
 
 .columna1Footer__logo {
@@ -329,77 +389,16 @@ form {
     text-align: center;
 }
 
-#ventajas {
-    font-size: 1.8rem;
-    font-family: "Poppins";
-    letter-spacing: 0.05em;
-    color: #047798;
-    line-height: 1.4em;
+.copy {
     text-align: center;
+    color: #00000060;
     background-color: #f7f9fc;
-    border-radius: 20px;
+    padding: 10px;
 }
 
-#ventajas img {
-    width: 100px;
-}
+/* Fin Footer */
 
-.ventajastexto {
-    font-size: 1.7rem;
-    color: #666666;
-    margin: 30px 20px 30px 20px;
-    letter-spacing: 0.05em;
-    font-family: Poppins;
-    line-height: 1.5em;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-}
-
-.imagenVentajas {
-    margin: 30px 15px 0px 15px;
-    border-radius: 20px;
-    
-}
-
-.ventajas1 {
-    background-color: white;
-    margin: 40px 15px 40px 15px;
-    border-radius: 20px;
-}
-
-.ventajas2 {
-    background-color: white;
-    margin: 40px 15px 40px 15px;
-    border-radius: 20px;
-}
-
-.ventajas3 {
-    background-color: white;
-    margin: 40px 15px 40px 15px;
-    border-radius: 20px;
-}
-
-.padding {
-    background-color:#f7f9fc;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-}
-
-.mail {
-    padding: 20px 0px 0px 0px;
-}
-
-.telefono {
-    padding: 0px 0px 20px 0px;
-}
-
-.border {
-    border: solid 2px #047798;
-    border-radius: 15px;
-    padding: 15px 20px;
-    margin-top: 15px;
-}
+/* Inicio Página Servicios */
 #servicios {
     display:flex;
     justify-content: center;
@@ -446,6 +445,9 @@ form {
     padding: 15px 25px 15px 25px;
     border-radius: 20px;
 }
+
+/* Fin página Servicios */
+/* Inicio página Precios */
 
 .PreciosConsultaIndividual {
     border: #777777 2px solid;
@@ -506,12 +508,29 @@ form {
     background-color: #7ddde3;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 480px) {
+/* Fin página Precios */
+
+/* Media Queries para pantallas SM max 768px */
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+
+    /* index */
+    
+    .textos {
+        width: 90% !important;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .logoMenu {
+        max-width: 50%;
+    }
+    
     h1 {
         font-size: 2rem;
     }
+    
     h2 {
-        font-size: 1rem;
+        font-size: 3rem;
         line-height: 1.2;
     }
 
@@ -536,6 +555,9 @@ form {
       .ventajas3 {
           grid-area: ventajas3;
       }
+
+    /* Footer */
+
       .columnas {
             grid-template-columns: 100%;
             display: grid;
@@ -568,7 +590,10 @@ form {
           text-align: center;
           margin-right: 0;
       }
-      
+      /* Fin Footer */
+      /* fin index */
+
+      /* Media queries página Sobre Mi */
       .sobremi {
           display: grid;
           padding: 0;
@@ -594,4 +619,57 @@ form {
           width: 250px;
           padding: 0;
       }
+      .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2804, 119, 152, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+    
+    .navbar-light .navbar-toggler {
+        border-color: #047798;
+      }
+    #menu a, button{
+        font-size: 18px !important;
+         font-weight: 600;
+         padding-left: 10px;
+      }
+    }
+/* Fin Media Queries para pantallas SM max 768 */
+
+/* Inicio Media Queries para pantallas ancha 1200px */
+
+@media only screen and (min-width: 768px) and (max-width: 2400px) {
+    #ventajas {
+        display: inline-flex;
+        align-items: center;
+    }
+    #ventajas padding {
+        display: grid;
+        grid-area: auto;
+    }
+    .titulosH4 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    .col-md-4 {
+        width: 100%;
+    }
+}
+
+
+/* Comienzo con Bootstrap */
+
+.logoMenu {
+    max-width: 50%;
+}
+
+#menu a, button{
+    font-size: 18px !important;
+     font-weight: 600;
+     padding-left: 10px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2804, 119, 152, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #047798;
 }
