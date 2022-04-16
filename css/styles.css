@@ -314,7 +314,7 @@ font: color white;
 
 /* Inicio Footer */
 
-.footer {
+footer {
     background-color: white;
     font-size: 1.8rem;
     font-family: "Poppins";
@@ -323,23 +323,24 @@ font: color white;
 
 .columnas {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    justify-content: center;
 }
 .columna1Footer__mision {
     font-size: 1.5rem;
     line-height: 1.4em;
     text-align: center;
-    padding: 20px;
+    padding: 20px 30px 0px 30px;
 }
 
 .columna1Footer {
     text-align: center;
-    margin-left: 40px;
+    padding: 20px 0;
 }
 
 .mail {
-    padding: 20px 0px 0px 0px;
+    padding: px 0px 0px 0px;
 }
 
 .telefono {
@@ -347,7 +348,8 @@ font: color white;
 }
 
 .columna1Footer__logo {
-    margin-bottom: -10px;
+    margin-bottom: -20px;
+    max-width: 30%;
 }
 
 .columna2Footer1 {
@@ -356,20 +358,32 @@ font: color white;
 }
 
 .columna2Footer {
-    padding: 10px 30px 20px 30px;
+    padding: 0px 30px 20px 30px;
     list-style: none;
-    text-align: left;
+    text-align: center;
     display: inline-block;
 }
 
 .columna3Footer {
     text-align: center; 
-    margin-right: 40px; 
 }
 
 .rrss_titulo {
     color: #047798;
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.rrss a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.fa-brands {
+    color: #047798;
+    padding: 5px 0 40px 0;
 }
 
 .copy {
@@ -529,15 +543,23 @@ font: color white;
                 "ventajas2"
                 "ventajas3"; 
       }
-      .ventajas1 {
+      /* .ventajas1 {
           grid-area: ventajas1;
-      }
-      .ventajas2 {
+      } */
+      /* .ventajas2 {
           grid-area: ventajas2;
       }
       .ventajas3 {
           grid-area: ventajas3;
-      } */
+      } */ 
+
+      .ventajas1 {
+        margin: 40px 15px 0px 15px;
+    }
+
+    #ventajas {
+        padding-bottom: 40px;
+    }
 
     /* Footer */
 
@@ -551,7 +573,8 @@ font: color white;
                 "columna3Footer";
       }
 
-      .columna1Footer{
+
+      /* .columna1Footer{
           grid-area: columna1Footer;
           margin: 0;
       }
@@ -572,7 +595,7 @@ font: color white;
           grid-area: columna3Footer;
           text-align: center;
           margin-right: 0;
-      }
+      } */
       /* Fin Footer */
       /* fin index */
 
@@ -614,12 +637,25 @@ font: color white;
          font-weight: 600;
          padding-left: 10px;
       }
+
+      .columna1Footer__logo {
+        margin-bottom: -20px;
+        max-width: 125px;
+    }
+
+    .columna1Footer__mision {
+        font-size: 1.5rem;
+        line-height: 1.4em;
+        text-align: center;
+        padding: 20px 60px 0px 60px;
+    }
+
     }
 /* Fin Media Queries para pantallas SM max 768 */
 
 /* Inicio Media Queries para pantallas ancha 1200px */
 
-@media only screen and (min-width: 768px) and (max-width: 2400px) {
+@media only screen and (min-width: 1024px) and (max-width: 2400px) {
     #ventajas {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -643,11 +679,38 @@ font: color white;
     .ventajas1 {
         height: 250px;
     }
+
+    .columnas {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
 }
 
+/* Inicio Media Queries para pantallas medias entre 768px y 1024px */
 
-/* Comienzo con Bootstrap */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
+    .ventajas1 {
+        height: 270px;
+    }
+
+    .columna1Footer__logo {
+        margin-bottom: -20px;
+        max-width: 125px;
+    }
+    
+    #ventajas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* Ajueste nav */
 .logoMenu {
     max-width: 50%;
 }
@@ -657,6 +720,9 @@ font: color white;
      font-weight: 600;
      padding-left: 10px;
 }
+
+
+/* Estilizado de boton menu hamburquesa */
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2804, 119, 152, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -664,3 +730,4 @@ font: color white;
 .navbar-light .navbar-toggler {
     border-color: #047798;
 }
+/* Fin estilizado de boton menu hamburquesa */
