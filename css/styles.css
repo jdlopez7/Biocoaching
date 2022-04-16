@@ -110,23 +110,6 @@ a {
     border-radius: 20px;
 }
 
-.ventajas2 {
-    background-color: white;
-    margin: 40px 15px 40px 15px;
-    border-radius: 20px;
-}
-
-.ventajas3 {
-    background-color: white;
-    margin: 40px 15px 40px 15px;
-    border-radius: 20px;
-}
-
-.padding {
-    background-color:#f7f9fc;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-}
 /* Fin index */
 
 /* Inicio Página Sobre Mi */
@@ -538,7 +521,7 @@ font: color white;
         font-size: 2rem;
         line-height: 1.2;
     }
-    .padding {
+    /* .padding {
             display: grid;
             grid-template-columns: 100%;
             grid-template-areas: 
@@ -554,7 +537,7 @@ font: color white;
       }
       .ventajas3 {
           grid-area: ventajas3;
-      }
+      } */
 
     /* Footer */
 
@@ -638,19 +621,27 @@ font: color white;
 
 @media only screen and (min-width: 768px) and (max-width: 2400px) {
     #ventajas {
-        display: inline-flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
-    #ventajas padding {
+    /* #ventajas {
         display: grid;
         grid-area: auto;
-    }
+    } */
     .titulosH4 {
         font-size: 2rem;
         line-height: 1.2;
     }
     .col-md-4 {
         width: 100%;
+    }
+    .container {
+        max-width: 100%;
+    }
+
+    .ventajas1 {
+        height: 250px;
     }
 }
 
