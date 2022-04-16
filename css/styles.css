@@ -121,21 +121,33 @@ a {
     padding-top: 3rem;
 }
 
+/* .cajaTitulo {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
+
 .tituloSobreMi {
-    display: grid;
-    align-items: center;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 1rem;
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .titulosH2SobreMi {
+    height: 300px;
     font-size: 4.2rem;
     font-family: "Poppins";
     font-weight: 700;
     padding: 0 0 1em 0;
     text-align: center;
-    color: #047798;
+    color: white;
     letter-spacing: 0.05em;
+    background-color: green;
 }
 
 .sobremicaja {
