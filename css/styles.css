@@ -131,7 +131,6 @@ a {
 .tituloSobreMi {
     width: 100%;
     margin-top: 1rem;
-    background-color: blue;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -139,15 +138,13 @@ a {
 }
 
 .titulosH2SobreMi {
-    height: 300px;
     font-size: 4.2rem;
     font-family: "Poppins";
     font-weight: 700;
     padding: 0 0 1em 0;
     text-align: center;
-    color: white;
+    color: #047798;
     letter-spacing: 0.05em;
-    background-color: green;
 }
 
 .sobremicaja {
