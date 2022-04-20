@@ -299,10 +299,12 @@ a {
 .btn {
 background-color: #047798 !important;
 font: color white;
+border-radius: 0.8rem;
 }
 .form-label {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: Poppins 200;
+    color: #047798;
 }
 #contenedor-formulario{
     background: #fbfafa;
@@ -314,9 +316,20 @@ font: color white;
 .conversemos {
     color: #047798;
     margin: 3rem 0;
+    text-align: center;
 }
 .img-fluid {
     border-radius: 15px;
+}
+.input-lg {
+    height: 30px;
+}
+
+.fondoFormulario {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    border: #047798 0.5px solid;
 }
 
 /* Fin página contacto */
@@ -562,7 +575,7 @@ footer {
           grid-area: ventajas3;
       } */ 
 
-      .ventajas1 {
+    .ventajas1 {
         margin: 40px 15px 0px 15px;
     }
 
@@ -618,8 +631,8 @@ footer {
           grid-template-areas: 
           "textoSobremipadding"
           "imagenSobreMi";
-
       }
+      
       .textoSobremipadding {
           grid-area: textosobremipadding;
       }
@@ -642,12 +655,12 @@ footer {
         border-color: #047798;
       }
     #menu a, button{
-        font-size: 18px !important;
+        font-size: 18px;
          font-weight: 600;
          padding-left: 10px;
       }
 
-      .columna1Footer__logo {
+    .columna1Footer__logo {
         margin-bottom: -20px;
         max-width: 125px;
     }
@@ -717,6 +730,9 @@ footer {
     }
     .container {
         max-width: 100%;
+    }
+    .col-md-4 {
+        width: 100%;
     }
 }
 
