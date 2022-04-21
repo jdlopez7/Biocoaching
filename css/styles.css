@@ -540,9 +540,6 @@ footer {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .logoMenu {
-        max-width: 50%;
-    }
     
     h1 {
         font-size: 2rem;
@@ -557,23 +554,6 @@ footer {
         font-size: 2rem;
         line-height: 1.2;
     }
-    /* .padding {
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-areas: 
-                "ventajas1"
-                "ventajas2"
-                "ventajas3"; 
-      }
-      /* .ventajas1 {
-          grid-area: ventajas1;
-      } */
-      /* .ventajas2 {
-          grid-area: ventajas2;
-      }
-      .ventajas3 {
-          grid-area: ventajas3;
-      } */ 
 
     .ventajas1 {
         margin: 40px 15px 0px 15px;
@@ -596,28 +576,6 @@ footer {
       }
 
 
-      /* .columna1Footer{
-          grid-area: columna1Footer;
-          margin: 0;
-      }
-
-      .columna2Footer {
-            grid-area: columna2Footer;
-            text-align: center;
-            padding: none;
-      }
-
-      .columna2Footer1 {
-          grid-area: columna2Footer1;
-          text-align: center;
-          padding: none;
-      }
-
-      .columna3Footer {
-          grid-area: columna3Footer;
-          text-align: center;
-          margin-right: 0;
-      } */
       /* Fin Footer */
       /* fin index */
 
@@ -647,13 +605,7 @@ footer {
           width: 250px;
           padding: 0;
       }
-      .navbar-light .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2804, 119, 152, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-      }
-    
-    .navbar-light .navbar-toggler {
-        border-color: #047798;
-      }
+      
     #menu a, button{
         font-size: 18px;
          font-weight: 600;
@@ -671,8 +623,8 @@ footer {
         text-align: center;
         padding: 20px 60px 0px 60px;
     }
-
     }
+
 /* Fin Media Queries para pantallas SM max 768 */
 
 /* Inicio Media Queries para pantallas ancha 1200px */
