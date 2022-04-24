@@ -308,10 +308,13 @@ border-radius: 0.8rem;
 }
 #contenedor-formulario{
     background: #fbfafa;
-    border-radius:5px;
-    display: flex;
+    border-radius:10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
+    margin: 2rem;
 }
 .conversemos {
     color: #047798;
@@ -623,8 +626,23 @@ footer {
         text-align: center;
         padding: 20px 60px 0px 60px;
     }
-    }
+  
+    /* Contacto */
 
+    #contenedor-formulario{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .imagenContacto {
+        text-align: center;
+        margin: 0 30px;
+        }
+    .fondoFormulario {
+        margin: 0 30px;
+    }
+    }
 /* Fin Media Queries para pantallas SM max 768 */
 
 /* Inicio Media Queries para pantallas ancha 1200px */
@@ -635,10 +653,7 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
-    /* #ventajas {
-        display: grid;
-        grid-area: auto;
-    } */
+    
     .titulosH4 {
         font-size: 2rem;
         line-height: 1.2;
@@ -646,9 +661,9 @@ footer {
     .col-md-4 {
         width: 100%;
     }
-    .container {
+    /* .container {
         max-width: 100%;
-    }
+    } */
 
     .ventajas1 {
         height: 250px;
@@ -659,7 +674,18 @@ footer {
         padding-right: 30px;
         padding-bottom: 15px;
     }
+    #contenedor-formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagenContacto {
+        text-align: center;
+    }
+    .conversemos {
 
+    }
 }
 
 /* Inicio Media Queries para pantallas medias entre 768px y 1024px */
@@ -680,11 +706,24 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
-    .container {
+    /* .container {
         max-width: 100%;
-    }
+    } */
     .col-md-4 {
         width: 100%;
+    }
+    
+    #contenedor-formulario{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .fondoFormulario {
+        margin: 0 30px;
+    }
+
+    .imagenContacto {
+    text-align: center;
     }
 }
 
