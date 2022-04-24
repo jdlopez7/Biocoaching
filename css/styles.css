@@ -62,6 +62,9 @@ a {
     text-decoration: none !important;
     color: #047798 !important;
 }
+.fa-fingerprint {
+    color: #047798;
+}
 
 #imagen-fondo {
     background-image: url("../img/fondo-de-pantalla-web-jdlc-opt.jpg"); height: 600px;
@@ -454,10 +457,11 @@ footer {
     text-align: center;
 
 }
-.fondoBlanco {
+.fondoBlanco1 {
     background-color: white;
     margin-top: 40px;
 }
+
 .servicios1 {
     background-color: white;
     display: flex;
@@ -509,6 +513,18 @@ footer {
     line-height: 1.5em;
 }
 
+.fondoBlanco {
+    background-color: white;
+    margin-top: 40px;
+}
+
+.fondoBlanco:hover {
+        transform: scale(1.06);
+        background-color: white;
+        margin-top: 40px;
+        transition: 0.25s;
+      }
+
 .botonPrecios {
   text-align: center;
   background: #047798;
@@ -521,6 +537,10 @@ footer {
   border-radius: 20px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+
+.botonPrecios:hover{
+    background-color: #ce0054;
 }
 
 .botonPrecios1 {
