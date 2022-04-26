@@ -23,7 +23,7 @@ h1 {
     padding-top: 10rem;
     font-weight: 700;
     letter-spacing: 0.05em;
-    line-height: 1.2em; 
+    line-height: 1.2em;
 }
 
 .titulosH2 {
@@ -61,9 +61,6 @@ h1 {
 a {
     text-decoration: none !important;
     color: #047798 !important;
-}
-.fa-fingerprint {
-    color: #047798;
 }
 
 #imagen-fondo {
@@ -134,6 +131,7 @@ a {
 .tituloSobreMi {
     width: 100%;
     margin-top: 1rem;
+    background-color: blue;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -141,13 +139,15 @@ a {
 }
 
 .titulosH2SobreMi {
+    height: 300px;
     font-size: 4.2rem;
     font-family: "Poppins";
     font-weight: 700;
     padding: 0 0 1em 0;
     text-align: center;
-    color: #047798;
+    color: white;
     letter-spacing: 0.05em;
+    background-color: green;
 }
 
 .sobremicaja {
@@ -302,40 +302,24 @@ a {
 .btn {
 background-color: #047798 !important;
 font: color white;
-border-radius: 0.8rem;
 }
 .form-label {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: Poppins 200;
-    color: #047798;
 }
 #contenedor-formulario{
     background: #fbfafa;
-    border-radius:10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    border-radius:5px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
-    margin: 2rem;
 }
 .conversemos {
     color: #047798;
     margin: 3rem 0;
-    text-align: center;
 }
 .img-fluid {
     border-radius: 15px;
-}
-.input-lg {
-    height: 30px;
-}
-
-.fondoFormulario {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 15px;
-    border: #047798 0.5px solid;
 }
 
 /* Fin página contacto */
@@ -457,11 +441,10 @@ footer {
     text-align: center;
 
 }
-.fondoBlanco1 {
+.fondoBlanco {
     background-color: white;
     margin-top: 40px;
 }
-
 .servicios1 {
     background-color: white;
     display: flex;
@@ -513,18 +496,6 @@ footer {
     line-height: 1.5em;
 }
 
-.fondoBlanco {
-    background-color: white;
-    margin-top: 40px;
-}
-
-.fondoBlanco:hover {
-        transform: scale(1.06);
-        background-color: white;
-        margin-top: 40px;
-        transition: 0.25s;
-      }
-
 .botonPrecios {
   text-align: center;
   background: #047798;
@@ -537,10 +508,6 @@ footer {
   border-radius: 20px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-}
-
-.botonPrecios:hover{
-    background-color: #ce0054;
 }
 
 .botonPrecios1 {
@@ -563,6 +530,9 @@ footer {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .logoMenu {
+        max-width: 50%;
+    }
     
     h1 {
         font-size: 2rem;
@@ -577,8 +547,25 @@ footer {
         font-size: 2rem;
         line-height: 1.2;
     }
+    /* .padding {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-areas: 
+                "ventajas1"
+                "ventajas2"
+                "ventajas3"; 
+      }
+      /* .ventajas1 {
+          grid-area: ventajas1;
+      } */
+      /* .ventajas2 {
+          grid-area: ventajas2;
+      }
+      .ventajas3 {
+          grid-area: ventajas3;
+      } */ 
 
-    .ventajas1 {
+      .ventajas1 {
         margin: 40px 15px 0px 15px;
     }
 
@@ -599,6 +586,28 @@ footer {
       }
 
 
+      /* .columna1Footer{
+          grid-area: columna1Footer;
+          margin: 0;
+      }
+
+      .columna2Footer {
+            grid-area: columna2Footer;
+            text-align: center;
+            padding: none;
+      }
+
+      .columna2Footer1 {
+          grid-area: columna2Footer1;
+          text-align: center;
+          padding: none;
+      }
+
+      .columna3Footer {
+          grid-area: columna3Footer;
+          text-align: center;
+          margin-right: 0;
+      } */
       /* Fin Footer */
       /* fin index */
 
@@ -612,8 +621,8 @@ footer {
           grid-template-areas: 
           "textoSobremipadding"
           "imagenSobreMi";
+
       }
-      
       .textoSobremipadding {
           grid-area: textosobremipadding;
       }
@@ -628,14 +637,20 @@ footer {
           width: 250px;
           padding: 0;
       }
-      
+      .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2804, 119, 152, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+    
+    .navbar-light .navbar-toggler {
+        border-color: #047798;
+      }
     #menu a, button{
-        font-size: 18px;
+        font-size: 18px !important;
          font-weight: 600;
          padding-left: 10px;
       }
 
-    .columna1Footer__logo {
+      .columna1Footer__logo {
         margin-bottom: -20px;
         max-width: 125px;
     }
@@ -646,22 +661,7 @@ footer {
         text-align: center;
         padding: 20px 60px 0px 60px;
     }
-  
-    /* Contacto */
 
-    #contenedor-formulario{
-        display: block;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-    }
-    .imagenContacto {
-        text-align: center;
-        margin: 0 30px;
-        }
-    .fondoFormulario {
-        margin: 0 30px;
-    }
     }
 /* Fin Media Queries para pantallas SM max 768 */
 
@@ -673,7 +673,10 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
-    
+    /* #ventajas {
+        display: grid;
+        grid-area: auto;
+    } */
     .titulosH4 {
         font-size: 2rem;
         line-height: 1.2;
@@ -681,9 +684,9 @@ footer {
     .col-md-4 {
         width: 100%;
     }
-    /* .container {
+    .container {
         max-width: 100%;
-    } */
+    }
 
     .ventajas1 {
         height: 250px;
@@ -694,15 +697,7 @@ footer {
         padding-right: 30px;
         padding-bottom: 15px;
     }
-    #contenedor-formulario{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        justify-content: center;
-    }
-    .imagenContacto {
-        text-align: center;
-    }
+
 }
 
 /* Inicio Media Queries para pantallas medias entre 768px y 1024px */
@@ -723,24 +718,8 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
-    /* .container {
+    .container {
         max-width: 100%;
-    } */
-    .col-md-4 {
-        width: 100%;
-    }
-    
-    #contenedor-formulario{
-        display: block;
-        align-items: center;
-        justify-content: center;
-    }
-    .fondoFormulario {
-        margin: 0 30px;
-    }
-
-    .imagenContacto {
-    text-align: center;
     }
 }
 
